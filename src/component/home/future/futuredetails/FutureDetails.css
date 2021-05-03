@@ -1,0 +1,18 @@
+.future {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 40px;
+    padding: 37px 15px 40px;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0 -2px 20px 0 rgb(0 0 0 / 6%);
+    box-shadow: 0 -2px 20px 0 rgb(0 0 0 / 6%);
+}
+.futureImg {
+    max-width: 34%;
+
+}
+.future:hover {
+    box-shadow: 0 15px 20px 0 rgb(0 0 0 / 12%);
+}
