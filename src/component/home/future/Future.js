@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaReact } from 'react-icons/fa';
 import FutureDetails from './futuredetails/FutureDetails';
 import react from '../../icon/react.png';
 import html from '../../icon/Html.png';
@@ -49,8 +48,8 @@ const Future = () => {
     ]
 
     return (
-        <div className="container">
-            <h1> <FaReact />This is future</h1>
+        <div id="future" className="container">
+            <h2 className="mb-5" style={{textAlign: 'center'}}>FUTURE</h2>
             <div className="row">
                 {
                     futureData.map(future => <FutureDetails future={future}></FutureDetails>)
