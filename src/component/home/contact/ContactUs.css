@@ -100,7 +100,7 @@ textarea {
     font-size: 16px;
     color: #fff;
     line-height: 1.2;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     -moz-transition: all .4s;

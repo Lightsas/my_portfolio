@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 const Nav = () => {
@@ -11,7 +12,7 @@ const Nav = () => {
             </label>
             <label className="logo">LITON</label>
             <ul className="hoveer">
-                <li><a className="active" href="#home">Home</a></li>
+                <li><Link to="/" className="active" href="#home">Home</Link></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#blog">Blog</a></li>

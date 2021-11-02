@@ -2,11 +2,18 @@ import React from 'react';
 import './Home.css';
 import Typed from "react-typed";
 import mypic from '../../icon/me pic.PNG';
+import Navbar from '../navbar/Navbar';
+import Nav from '../navbar/Nav';
+import AboutME from '../aboutme/AboutME';
+import Protfolio from '../protfolio/Protfolio';
+import Future from '../future/Future';
+import ContactFrom from '../contactFrom/ContactFrom';
 
 
 const Home = () => {
     return (
-        <div>
+        <>
+
             <section style={{ backgroundColor:' #EFF0F4'}} className="home-section section">
                <div class="effect-warp">
                    <div class="effect effect-1"></div>
@@ -24,7 +31,7 @@ const Home = () => {
                             <h2>Md. Liton Ali</h2>
                             <h3 className="tye2">I'm Web</h3>
                             <Typed className="tye"
-                                strings={["Designer", "Devloper"]}
+                                strings={["MERN stack developer", "Front-End Developer", "Designer"]}
                                 typeSpeed={40}
                                 backSpeed={50}
                                 loop
@@ -41,8 +48,12 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <AboutME></AboutME>
+            <Protfolio></Protfolio>
+            <Future></Future>
+            <ContactFrom></ContactFrom>
+        </>    
             
-        </div>
     );
 };
 

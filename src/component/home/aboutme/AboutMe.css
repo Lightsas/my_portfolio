@@ -91,13 +91,18 @@
 }
 .timeline:before {
     top: 0;
-    bottom: 165px;
+    bottom: 137px;
     position: absolute;
     content: " ";
     border: 0.5px dashed #ff2e59;
     left: 0;
     margin-left: 7px;
-    height: 475px;
+    /* height: 475px; */
+}
+@media (max-width: 920) {
+    .respn:after {
+        height: 520px;
+    }
 }
 .timeline > li {
     padding-bottom: 47px;

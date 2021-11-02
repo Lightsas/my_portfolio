@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import './AboutMe.css';
 import shapeImage from '../../icon/16.png';
-import mypic from '../../icon/11.png';
+import mypic from '../../icon/Liton Final pic.png';
 
 const AboutME = () => {
     return (
@@ -29,7 +29,7 @@ const AboutME = () => {
                                     <h2>ABOUT ME</h2>
                                 </div>
                                 <div style={{marginTop: '50px', padding: '10px'}}>
-                                    <ul className="timeline">
+                                    <ul className="timeline respn">
                                         <li className="timeline-inverted color1">
                                             <div className="timeline-badge"></div>
                                             <div className="timeline-panel">

@@ -1,0 +1,13 @@
+.background {
+    background: rgb(244, 244, 244);
+
+}
+.contact-from-icon svg{
+    height: 3em;
+    width: 3em;
+}
+a {
+    text-decoration: none;
+}
+    
+
