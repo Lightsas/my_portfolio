@@ -11,3 +11,7 @@
  .collapsee:not(.show) {
    display: none;
 }
+
+@media (max-width: 858px){
+
+}

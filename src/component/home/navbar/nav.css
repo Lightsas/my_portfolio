@@ -18,7 +18,7 @@ label.logo {
     color: white;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding-left: 100px;
     font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -59,16 +59,23 @@ a:hover {
 @media (max-width: 952) {
     label.logo {
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 20px;
+
     }
     nav ul li a {
         font-size: 16px;
 
     }
 }
+
 @media (max-width: 858px){
     .checkbtn {
         display: block;
+    }
+    label.logo {
+        font-size: 30px;
+        padding-left: 20px;
+
     }
     ul.hoveer {
         position: fixed;

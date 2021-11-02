@@ -24,9 +24,9 @@ export default function ContactFrom() {
             <div className="container">
                 <div className="contact-from-socal-meaid-link mt-5">
                     <div className="row">
-                        <div className="col-lg-8 col-md-7">
-                            <div className="contact-from shadow p-3 mb-5 bg-body rounded">
-                                <div className="contact-from-body p-5">
+                        <div className="col-lg-8 col-md-7 col-sm-6">
+                            <div className="contact-from shadow p-5 mb-5 bg-body rounded">
+                                <div className="contact-from-body">
                                     <div className="contact-from-body-text text-center text-danger">
                                         <h5>HAVE ANY QUESTION?</h5>
                                     </div>

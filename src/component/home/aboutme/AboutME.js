@@ -16,7 +16,7 @@ const AboutME = () => {
                     <div className="col-md-6">
                             <div>
                                 <div>
-                                    <img src={mypic}></img>
+                                    <img className="img-fluid" src={mypic}></img>
                                 </div>
 
                             </div>
@@ -25,10 +25,10 @@ const AboutME = () => {
                     <Fade right> 
                         <div className="col-md-6 aboutResume">
                             <div>
-                                <div style={{marginLeft: '36px'}}>
+                                <div className="abouttt" style={{marginLeft: '36px'}}>
                                     <h2>ABOUT ME</h2>
                                 </div>
-                                <div style={{marginTop: '50px', padding: '10px'}}>
+                                <div className="about-deails" style={{marginTop: '50px', padding: '10px'}}>
                                     <ul className="timeline respn">
                                         <li className="timeline-inverted color1">
                                             <div className="timeline-badge"></div>
@@ -52,7 +52,7 @@ const AboutME = () => {
                                             <div className="timeline-badge"></div>
                                             <div className="timeline-panel">
                                                 <h3 className="f-info">EDUCATION</h3>
-                                                <div className="s-info">Shyamoli Ideal Polytechnic Institute</div>
+                                                 <div className="s-info">Shyamoli Ideal Polytechnic Institute</div>
                                                 <p>Diploma in Computer Science and Engineering</p>
                                             </div>
                                         </li>

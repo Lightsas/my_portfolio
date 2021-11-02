@@ -13,7 +13,6 @@ import ContactFrom from '../contactFrom/ContactFrom';
 const Home = () => {
     return (
         <>
-
             <section style={{ backgroundColor:' #EFF0F4'}} className="home-section section">
                <div class="effect-warp">
                    <div class="effect effect-1"></div>
