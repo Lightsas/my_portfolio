@@ -30,7 +30,7 @@ const Home = () => {
                             <h2>Md. Liton Ali</h2>
                             <h3 className="tye2">I'm Web</h3>
                             <Typed className="tye"
-                                strings={["MERN stack developer", "Front-End Developer", "Designer"]}
+                                strings={["Front-end Developer", "Designer"]}
                                 typeSpeed={40}
                                 backSpeed={50}
                                 loop
