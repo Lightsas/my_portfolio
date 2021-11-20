@@ -107,7 +107,7 @@ export default function ContactFrom() {
                                         </div>
                                         <div className="contact-from-details px-2">
                                             <h5 className="text-danger">Github</h5>
-                                            <p>Take A Look On Github</p>
+                                            <a href="https://github.com/Lightsas"><p>View Profile</p></a>
                                         </div>
                                     </div>
                                 </div>

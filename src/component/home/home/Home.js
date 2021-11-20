@@ -35,7 +35,7 @@ const Home = () => {
                                 backSpeed={50}
                                 loop
                             /><br></br>
-                            <a href="https://drive.google.com/file/d/1VbF1Nh23Ufzfqgpk445DEnPAmGRo1911/view?usp=sharing" download="Md Liton Ali" target="_blank" className="btn-1 outer-shadow hover-in-shadow">View Resume</a>
+                            <a href="https://drive.google.com/file/d/1iuxZSwJsjtZ__4mr9jliOthrtdD14OIU/view?usp=sharing" download="Md Liton Ali" target="_blank" className="btn-1 outer-shadow hover-in-shadow">View Resume</a>
                             <a href="https://github.com/Lightsas" className="btn-1 outer-shadow hover-in-shadow">Github</a>
                             <a href="https://linkedin.com/in/md-liton-ali-b03123174" className="btn-1 outer-shadow hover-in-shadow">Linkid</a>
                         </div>

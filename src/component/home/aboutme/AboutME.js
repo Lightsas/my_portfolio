@@ -43,7 +43,7 @@ const AboutME = () => {
                                             <div className="timeline-panel">
                                                 <h3 className="f-info">SKILLS</h3>
                                                 <div className="s-info">Expertise</div>
-                                                <p>HTML, CSS, Bootstrap, React Bootstrap, JavaScript (ES6), React.js, REST API, MongoDB, Firebase, Git</p>
+                                                <p>HTML, CSS, Bootstrap, React Bootstrap, JavaScript (ES6), React.JS, Redux, Thunk, REST API, MongoDB, Firebase, Git</p>
                                                 <div className="s-info">Comfortable</div>
                                                 <p>Node.js, Express.js, JSON, SASS, Material UI, React Native, OOP.</p>
                                             </div>

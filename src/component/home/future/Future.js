@@ -84,7 +84,7 @@ const Future = () => {
 
     return (
         <div id="future" className="container pt-5">
-            <h2 className="mb-5" style={{textAlign: 'center'}}>FUTURE</h2>
+            <h2 className="mb-5" style={{textAlign: 'center'}}>SKILLS</h2>
             <div className="row">
                 {
                     futureData.map(future => <FutureDetails future={future}></FutureDetails>)
