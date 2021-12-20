@@ -11,6 +11,16 @@
  .collapsee:not(.show) {
    display: none;
 }
+.accordion-button:not(.collapsed) {
+   color: black;
+   background-color: #e7f1ff;
+}
+.accordion-button:focus {
+   z-index: 3;
+   border-color: #dc3545;
+   box-shadow: 0 0 0 0.0rem rgb(#dc3545) !important;
+}
+
 
 @media (max-width: 858px){
 

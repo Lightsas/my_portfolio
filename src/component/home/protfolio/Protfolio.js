@@ -134,11 +134,11 @@ function Protfolio() {
                         </div>  
                     </div> 
                     <div className="container-contact100-from-btn mb-5">
-                        {/* <Link to="/homee">
+                        <Link to="/homee">
                             <button className="contact100-from-btn ">
                                 <p style={{marginBottom: '0', fontSize: '20px'}}>See All Project</p>
                             </button>
-                        </Link> */}
+                        </Link>
                     </div>                        
                 </div>
             </div>

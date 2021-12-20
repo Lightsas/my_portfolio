@@ -10,11 +10,11 @@ import firebase from '../../icon/Firebase.png';
 import css from '../../icon/css.png';
 import reactRouter from '../../icon/React Router.png';
 import expressJs from '../../icon/qgjn9fi1vff7thgbbecs.jpeg';
-import sass from '../../icon/sass.png';
+import sass from '../../icon/sas.png';
 import MaterialUl from '../../icon/metrial.png';
 import figma from '../../icon/FIgma.png';
 import Git from '../../icon/Git-Icon-1788C.png';
-import heroku from '../../icon/hroku.png';
+import heroku from '../../icon/hero ku.png';
 
 const Future = () => {
 
