@@ -4,6 +4,7 @@ import prortfolioImage1 from '../../icon/Final PIV.jpg';
 import prortfolioImage2 from '../../icon/Rofik It.jpg';
 import prortfolioImage3 from '../../icon/Kachabar verlly.png';
 import prortfolioImage4 from '../../icon/Niphamari Raider.jpg';
+import prortfolioImage5 from '../../icon/bpl-tem.jpg';
 import { BsCheckLg, BsGithub, BsLink45Deg } from "react-icons/bs";
 import Nav from '../navbar/Nav';
 
@@ -15,6 +16,7 @@ function ProtfolioAll(props) {
     const [visibleTwo, setVisibleTwo] = React.useState(true);
     const [visibleThree, setVisibleThree] = React.useState(true);
     const [visibleFour, setVisibleFour] = React.useState(true);
+    const [visibleFive, setVisibleFive] = React.useState(true);
 
 
     return (
@@ -178,7 +180,7 @@ function ProtfolioAll(props) {
                                                 <span>Firebase</span>
                                             </div>
                                             <div className="project-link mt-3">
-                                                <a href="https://github.com/Lightsas/complet-rofik-if"><BsGithub /></a>
+                                                <a href="https://github.com/Lightsas/nilphamri-rider"><BsGithub /></a>
                                                 <a className="mt-5" href="https://rofik-it.web.app/"><BsLink45Deg /></a>
                                             </div>
                                         </div>
@@ -190,8 +192,8 @@ function ProtfolioAll(props) {
                                                     <span>Node JS</span>
                                                 </div> 
                                                 <div className="project-link mt-3">
-                                                    <a href="https://github.com/Lightsas/complet-rofik-if"><BsGithub /></a>
-                                                    <a className="mt-5" href="https://rofik-it.web.app/"><BsLink45Deg /></a>
+                                                    <a href="https://github.com/Lightsas/nilphamri-rider"><BsGithub /></a>
+                                                    <a className="mt-5" href="https://nilphamri-riders.web.app/"><BsLink45Deg /></a>
                                                 </div>   
                                             </div>
                                         }                              
@@ -230,7 +232,7 @@ function ProtfolioAll(props) {
                                             </div>
                                             <div className="project-link mt-3">
                                                 <a href="https://github.com/Lightsas/complet-rofik-if"><BsGithub /></a>
-                                                <a className="mt-5" href="https://rofik-it.web.app/"><BsLink45Deg /></a>
+                                                <a className="mt-5" href="https://nilphamri-riders.web.app/"><BsLink45Deg /></a>
                                             </div>
                                         </div>
                                         </div>
@@ -242,6 +244,56 @@ function ProtfolioAll(props) {
                                                 <div className="project-link mt-3">
                                                     <a href="https://github.com/Lightsas/complet-rofik-if"><BsGithub /></a>
                                                     <a className="mt-5" href="https://rofik-it.web.app/"><BsLink45Deg /></a>
+                                                </div>   
+                                            </div>
+                                        }                              
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 pt-5">
+                            <div className="protfolio-work-item shadow">
+                                <div className="protfolio-work-item-img">
+                                    <img src={prortfolioImage5}></img>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingFive">
+                                        <button onClick={() => setVisibleFive(!visibleFive)} class="accordion-button collapsed bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                            <h4 className="title">BPL Team</h4>
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseFive" class="accordion-collapse collapse text-start" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                        <div className="project-details bg-danger text-white p-4">
+                                            <p className="project-describtion">An ecommerce application where user can buy products. A dashboard is added for maintenance.</p>
+                                            <div className="feature">
+                                                <h5>Feature</h5>
+                                                <ul className="feature-list">
+                                                    <li><BsCheckLg /> Check Out</li>
+                                                    <li><BsCheckLg /> Product management</li>
+                                                    <li><BsCheckLg /> order history</li>
+                                                </ul>
+                                            </div>
+                                            <div className="technology mt-3">
+                                                <h5>Technology Stack</h5>
+                                                <span>React JS</span>
+                                                <span>React Router</span>
+                                                <span>Firebase</span>
+                                            </div>
+                                            <div className="project-link mt-3">
+                                                <a href="https://github.com/Lightsas/bpl-tream"><BsGithub /></a>
+                                                <a className="mt-5" href="https://youthful-yonath-043105.netlify.app/"><BsLink45Deg /></a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        {visibleFive &&
+                                            <div className="bg-danger d-flex justify-content-between align-items-center">
+                                                <div className="technology p-3">
+                                                    <span>React JS</span>
+                                                </div> 
+                                                <div className="project-link mt-3">
+                                                    <a href="https://github.com/Lightsas/bpl-tream"><BsGithub /></a>
+                                                    <a className="mt-5" href="https://youthful-yonath-043105.netlify.app/"><BsLink45Deg /></a>
                                                 </div>   
                                             </div>
                                         }                              
